@@ -1,1 +1,1 @@
-from mpi4py_map import map
+from mpi4py_map import pmap
