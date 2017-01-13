@@ -19,7 +19,7 @@ import sys
 
 from mpi4py import MPI
 
-def map(function, sequence, *args, **kwargs):
+def pmap(function, sequence, *args, **kwargs):
     """Return a list of the results of applying the function in
     parallel (using mpi4py) to each element in sequence.
 
